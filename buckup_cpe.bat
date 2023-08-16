@@ -1,8 +1,11 @@
 @echo off
 
-set MYSQL_USER=fdtcpe
-set MYSQL_PASSWORD=fdtcpe!23
-set BACKUP_DIR=C:\Users\admin_nod\Sauvegarde BD fdt
+:: A remplir
+set MYSQL_USER=
+:: A remplir
+set MYSQL_PASSWORD=
+:: A remplir
+set BACKUP_DIR=  
 
 :: Obtenir la date et l'heure actuelles au format "YYYYMMDD_HHMMSS"
 for /f "tokens=2-4 delims=/: " %%a in ('echo %DATE%') do ( 
